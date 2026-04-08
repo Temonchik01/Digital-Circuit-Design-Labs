@@ -1,0 +1,15 @@
+E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_NAND.v {1 {vlog -work work E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_NAND.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Comb_NAND
+
+Top level modules:
+	Comb_NAND
+
+} {} {}} E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_AND.v {1 {vlog -work work E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_AND.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Comb_AND
+
+Top level modules:
+	Comb_AND
+
+} {} {}}

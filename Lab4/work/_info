@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\13.1\modelsim_ase\win32aloem
+vComb_AND
+Z1 !s100 ]U8JUL;@`HBWAViL3g:973
+Z2 IhfhlDGC8e`3Hc>m@>HFE<0
+Z3 VG4SCiinPUnY5?Ya_TAZ1o0
+Z4 dE:\altera\13.1\modelsim_ase\win32aloem\Lab4
+Z5 w1775675565
+Z6 8E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_AND.v
+Z7 FE:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_AND.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_AND.v|
+Z10 o-work work -O0
+Z11 n@comb_@a@n@d
+Z12 !s108 1775675565.812000
+Z13 !s107 E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_AND.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vComb_NAND
+!i10b 1
+Z14 !s100 `[IO?U@nMN8DCE7`2UXKh2
+Z15 IVkPKCK;@1hf;?^?abFC0Q2
+Z16 VfniPGUh:0V?HJ4OO59Jid3
+R4
+Z17 w1775673954
+Z18 8E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_NAND.v
+Z19 FE:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_NAND.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1775676613.331000
+!s107 E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_NAND.v|
+Z20 !s90 -reportprogress|300|-work|work|E:/altera/13.1/modelsim_ase/win32aloem/Lab4/Comb_NAND.v|
+!s101 -O0
+R10
+Z21 n@comb_@n@a@n@d

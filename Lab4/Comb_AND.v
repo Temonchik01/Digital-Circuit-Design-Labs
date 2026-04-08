@@ -1,0 +1,9 @@
+module Comb_AND(x1, x2, f);
+    input x1, x2;
+    output f;
+
+    wire term1 = x1 & (~x2);
+    wire term2 = (~x1) & x2;
+    
+    assign f = ~( (~term1) & (~term2) );
+endmodule 
