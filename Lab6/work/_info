@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\altera\13.1\modelsim_ase\win32aloem\Lab5
+vbitsum
+!i10b 1
+!s100 C][:]JP6ZT7];GV7fAAd`0
+I?EPg`>9B4lShdbm]^mic_2
+Vi9NGmz9LhHK1Bn8hXVK7o2
+Z1 dE:\altera\13.1\modelsim_ase\win32aloem\Lab6
+Z2 w1778192905
+Z3 8E:/altera/13.1/modelsim_ase/win32aloem/Lab6/Sum.v
+Z4 FE:/altera/13.1/modelsim_ase/win32aloem/Lab6/Sum.v
+L0 22
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1778193072.273000
+Z7 !s107 E:/altera/13.1/modelsim_ase/win32aloem/Lab6/Sum.v|
+Z8 !s90 -reportprogress|300|-work|work|E:/altera/13.1/modelsim_ase/win32aloem/Lab6/Sum.v|
+!s101 -O0
+Z9 o-work work -O0
+vmy_sum
+!i10b 1
+!s100 FzWcR5XD7ND@7@lR:?Da:2
+I09GN3T]fcZD1TajZ597`M0
+V5:MColN9giVaMz1^<kL:?2
+R1
+R2
+R3
+R4
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+vref_sum
+Z10 IkT7`^kB9PRc^3j1lgY]820
+Z11 V9:G:eW28:^mbNn=C?:NMX2
+R1
+Z12 w1778192904
+Z13 8E:/altera/13.1/modelsim_ase/win32aloem/Lab6/ref.v
+Z14 FE:/altera/13.1/modelsim_ase/win32aloem/Lab6/ref.v
+L0 1
+R5
+r1
+31
+R9
+!i10b 1
+Z15 !s100 [zj6Q_`Aj1ID_5mnToI852
+!s85 0
+Z16 !s108 1778193072.187000
+Z17 !s107 E:/altera/13.1/modelsim_ase/win32aloem/Lab6/ref.v|
+Z18 !s90 -reportprogress|300|-work|work|E:/altera/13.1/modelsim_ase/win32aloem/Lab6/ref.v|
+!s101 -O0
+vtest_sum
+Z19 I[`57beL6MlbLSNYg]^IZ<2
+Z20 V?[S@XOc7;P58OizZje^Po0
+R1
+Z21 w1778193056
+Z22 8E:/altera/13.1/modelsim_ase/win32aloem/Lab6/testbench.v
+Z23 FE:/altera/13.1/modelsim_ase/win32aloem/Lab6/testbench.v
+L0 1
+R5
+r1
+31
+R9
+Z24 !s100 YUF?bVJ>fkOQ940B8Q9ck1
+Z25 !s108 1778193072.116000
+Z26 !s107 E:/altera/13.1/modelsim_ase/win32aloem/Lab6/testbench.v|
+Z27 !s90 -reportprogress|300|-work|work|E:/altera/13.1/modelsim_ase/win32aloem/Lab6/testbench.v|
+!i10b 1
+!s85 0
+!s101 -O0
