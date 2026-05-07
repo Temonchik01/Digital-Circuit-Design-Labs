@@ -1,0 +1,8 @@
+E:/altera/13.1/modelsim_ase/win32aloem/Lab5/scheme.v {1 {vlog -work work E:/altera/13.1/modelsim_ase/win32aloem/Lab5/scheme.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module multiplexer
+
+Top level modules:
+	multiplexer
+
+} {} {}}

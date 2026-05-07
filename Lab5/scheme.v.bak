@@ -1,0 +1,19 @@
+module multiplexer (
+input [3:0] D0,
+input [3:0] D1,
+input [3:0] D2,
+input [3:0] D3,
+input [3:0] D4,
+input A1,
+input A2,
+input A3,
+input A4,
+output [3:0] Q
+);
+
+assign Q = ({4{~A1 & ~A2 & ~A3 & ~A4}} & D0) | 
+         ({4{~A1 & ~A2 & ~A3 & A4}} & D1) | 
+         ({4{~A1 & ~A2 & A3 & ~A4}} & D2) | 
+         ({4{~A1 & ~A2 & A3 & A4}} & D3) | 
+         ({4{~A1 & A2 & ~A3 & ~A4}} & D4) |  
+endmodule
