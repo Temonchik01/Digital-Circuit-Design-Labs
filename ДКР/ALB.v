@@ -22,9 +22,9 @@ always @(*) begin
   result = 9'd0;
   
   case(sel)
-    2'b00: result = {1'b0, R | S};
-    2'b01: result = {1'b0, R} + S + CI;
-    2'b10: result = {1'b0, ~R & S};
+    2'b00: result = {1'b0, ~R & S};
+    2'b01: result = {1'b0, ~(R^S)};
+    2'b10: result = {1'b0, R} + S + CI;
     2'b11: result = {1'b0, R} - S - 1 + CI;
   endcase
 
