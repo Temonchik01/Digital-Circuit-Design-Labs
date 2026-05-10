@@ -1,0 +1,44 @@
+module ALB (
+input [7:0] R, S,
+input CI,
+input [1:0] sel,
+output reg [7:0] f_alb,
+output reg [7:0] norm_f,
+output reg flag_C,
+output reg flag_V,
+output reg flag_N,
+output reg flag_Z
+);
+
+reg [8:0] result;
+
+always @(*) begin
+  f_alb = 8'd0;
+  norm_f = 0'd0;
+  flag_C = 0;
+  flag_V = 0;
+  flag_N = 0;
+  flag_Z = 0;
+  result = 9'd0;
+  
+  case(sel)
+    2'b00: result = {1'b0, ~R & S};
+    2'b01: result = {1'b0, ~(R ^ S)};
+    2'b10: result = {1'b0, R} + S + CI;
+    2'b11: result = {1'b0, R} - S - 1 + CI;
+  endcase
+
+  f_alb = result[7:0];
+  flag_C = result[8];
+  flag_N = f_alb[7];
+  flag_Z = (f_alb == 8'b0);
+  flag_V = ((sel == 2'b10 || sel == 2'b11) && (R[7] == S[7]) && (f_alb[7] != R[7]));
+
+  if (f_alb[7] != f_alb[6])
+    norm_f = {f_alb[7], f_alb[7:1]};
+  else
+    norm_f = f_alb;
+end
+
+endmodule
+    

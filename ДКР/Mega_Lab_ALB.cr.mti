@@ -1,0 +1,15 @@
+D:/Quartus_Lab/DKR/ALB.v {1 {vlog -work work D:/Quartus_Lab/DKR/ALB.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALB
+
+Top level modules:
+	ALB
+
+} {} {}} D:/Quartus_Lab/DKR/Testbench.v {1 {vlog -work work D:/Quartus_Lab/DKR/Testbench.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Testbench
+
+Top level modules:
+	Testbench
+
+} {} {}}
